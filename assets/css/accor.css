@@ -1,0 +1,44 @@
+    /* CSS styles */
+    .post-element {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .accorimg {
+        flex: 1;
+        margin-bottom: 20px;
+      }
+      
+      .accorimg img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .accortext {
+        flex: 3;
+      }
+      
+      .accortext button{
+          margin-top: 120px;
+          display: flex;
+      }
+      .accortext h2{
+          margin-top: 20px;
+      }
+      @media screen and (max-width: 768px) {
+        .accorimg {
+          flex: 0 0 80%;
+          margin-bottom: 0;
+          margin-right: 20px;
+        }
+      
+        .accortext {
+          flex: 0 0 80%;
+          width: 80%;
+        }
+       
+      }
+      h2 button {
+        display: flex;
+      }
+      
